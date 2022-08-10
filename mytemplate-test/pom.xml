@@ -14,6 +14,7 @@
         <module>mytemplate-test-domain</module>
         <module>mytemplate-test-service</module>
         <module>mytemplate-test-store</module>
+        <module>mytemplate-test-service-encryption</module>
     </modules>
 
     <properties>
@@ -26,6 +27,7 @@
         <project.boot.version>1.0-SNAPSHOT</project.boot.version>
         <project.domain.version>1.0-SNAPSHOT</project.domain.version>
         <project.service.version>1.0-SNAPSHOT</project.service.version>
+        <project.service.encryption.version>1.0-SNAPSHOT</project.service.encryption.version>
         <project.store.version>1.0-SNAPSHOT</project.store.version>
 
         <!-- Spring Main Boot Version -->
@@ -65,7 +67,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <scope>true</scope>
+            <scope>test</scope>
         </dependency>
         <!-- Spring Configuration for yml -->
         <dependency>
