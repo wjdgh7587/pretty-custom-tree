@@ -1,0 +1,21 @@
+# Etc
+/.metadata/
+/.recommenders/
+*/.project
+*/.classpath
+*/.factorypath
+*/bin/
+*/log/
+*/logs/
+*/target/
+*/.settings
+*.iml
+/.idea
+/logs
+
+# Swagger
+*/.openapi-generator/
+*/.openapi-generator-ignore
+*/index.html
+*/generated-sources/
+
