@@ -3,6 +3,7 @@ package encryption.publickey;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.security.*;
 import java.security.spec.InvalidKeySpecException;
@@ -13,6 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j
+@SpringBootTest
 public class PublicKeyGeneratorTest {
 
     /***

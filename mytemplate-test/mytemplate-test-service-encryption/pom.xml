@@ -22,6 +22,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+        <dependency>
+            <artifactId>${project.main.name}-store</artifactId>
+            <groupId>${project.main.package}</groupId>
+            <version>${project.store.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
